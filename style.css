@@ -54,4 +54,34 @@ background:#333;
 color:white;
 text-align:center;
 padding:15px;
+
 }
+@media (max-width:768px){
+
+header{
+flex-direction:column;
+text-align:center;
+}
+
+nav ul{
+flex-direction:column;
+gap:10px;
+padding-top:10px;
+}
+
+#hero{
+padding:40px 20px;
+}
+
+.product{
+width:90%;
+margin:auto;
+margin-bottom:20px;
+}
+
+.about{
+padding:20px;
+}
+
+}
+
